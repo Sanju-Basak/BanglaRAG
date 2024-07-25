@@ -9,7 +9,6 @@ quickly, like science or current affairs. Unfortunately, there is
 currently no effective RAG pipeline for the Bengali language.
 Additionally, a reliable Bengali retriever is unavailable, and
 there are no benchmarks for Bengali information retrieval.
-add a image here
 ![Full RAG pipeline](Full_Rag_Pipeline.png)
 In this work, we extensively study retrieval performance in
 Bengali with various established methods, e.g., representationbased similarity models and late interaction models. We finetune Contextualized Late Interaction over BERT (ColBERT)
