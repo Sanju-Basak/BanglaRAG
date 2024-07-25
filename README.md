@@ -1,5 +1,5 @@
 # BanglaRAG
-## Effective Retrieval-Augmented Generation for Open Domain Question Answering in Bengali
+## Description & Pipeline
 Despite recent advancements in Large language
 models (LLM), vast amounts of information exist beyond their
 static knowledge base. Retrieval-Augmented Generation (RAG)
@@ -9,6 +9,8 @@ quickly, like science or current affairs. Unfortunately, there is
 currently no effective RAG pipeline for the Bengali language.
 Additionally, a reliable Bengali retriever is unavailable, and
 there are no benchmarks for Bengali information retrieval.
+add a image here
+![Full RAG pipeline](Full_Rag_Pipeline.png)
 In this work, we extensively study retrieval performance in
 Bengali with various established methods, e.g., representationbased similarity models and late interaction models. We finetune Contextualized Late Interaction over BERT (ColBERT)
 and benchmark Bengali retrieval performance using SQuAD
